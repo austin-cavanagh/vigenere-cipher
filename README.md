@@ -11,22 +11,17 @@
 
 ## Overview
 
-![Screenshot of the home page tab](./screenshots/welcome-tab.png)
-
-Welcome to my Personal Finance Tracker application. This application was designed to help individuals better budget to meet their financial goals. It allows the user to input their personal budget goals for each spending category to give them a better understanding about how they are spending their money.
+Welcome to my Vigenere Cipher application. This application was created to help users encrypt and decrypt texts using the Vigenere Cipher method. It's great for those looking to learn about classical encryption techniques or to secure their messages in a more traditional way.
 
 ### Highlights:
 
-- **Input Income & Expenses**: User can input their personal information, income, fixed expenses, variables expenses, and savings and investments expenses
-  ![Input Income & Expenses](./screenshots/variable-expenses-tab.png)
-- **Budget Overview**: The application will present a budget overview highlighting where money is spend and whether or not the user has a balanced budget
-  ![Monthly Budget Overview](./screenshots/overview-tab.png)
-- **Export to Text File**: The user can export their information into a text file to be used at a later date
-  ![Export to Text File](./screenshots/text-file-output.png)
+- **Encrypt Text**: Users can input a plaintext string along with a key string to produce encrypted text using the Vigenere Cipher method.
+- **Decrypt Text**: The application also allows for decryption of text strings if the user has the correct key used for encryption.
+- **Interactive User Interface**: Simple and easy-to-use interface allows the user to easily perform encryption and decryption tasks.
 
 <br>
 
-I hope this application helps you to stay within your budget!
+I hope this application helps you better understand Vigenere Ciphers!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -34,7 +29,7 @@ I hope this application helps you to stay within your budget!
 
 ## Built With
 
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,18 +41,12 @@ This section provides instructions on how to get a local copy of the application
 
 ### Prerequisites
 
-Before installing, make sure you have the following tools installed:
+Before building, ensure you have a modern C++ compiler installed:
 
-- **Python**: The application is written in Python so it must be install. You can download it at [Python official website](https://www.python.org/downloads/). To check if it is installed run the following command in your terminal:
-
-  ```sh
-  python3 --version
-  ```
-
-- **tkinter**: GUI that comes pre-installed with Python. o check if it is installed run the following command in your terminal:
+- **GCC** or **Clang**: Make sure you have GCC or Clang installed. You can check by running:
 
   ```sh
-  python3 -m tkinter
+  g++ --version
   ```
 
 ### Installation
@@ -65,27 +54,30 @@ Before installing, make sure you have the following tools installed:
 To get a local copy up and running follow these simple steps.
 
 1. **Clone the repository**
-   Begin by cloning the repository to your local machine:
 
    ```sh
-   git clone https://github.com/austin-cavanagh/personal-finance-tracker.git
+   git clone https://github.com/yourusername/vigenere-cipher.git
    ```
 
 2. **Navigate to the project directory**
-   Enter directory after cloning:
 
    ```sh
-   cd personal-finance-tracker
+   cd vigenere-cipher
    ```
 
-3. **Run the following command in the terminal**
-   To run the project run the following command in the main directory:
+3. **Build the application with the Makefile**
 
    ```sh
-   python3 main.py
+   make
    ```
 
-4. **The application should now open. Happy coding!**
+4. **Run the application with the Makefile**
+
+   ```sh
+   make run
+   ```
+
+5. **Happy coding!**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,5 +86,11 @@ To get a local copy up and running follow these simple steps.
 ## Contact
 
 Austin Cavanagh - <a href="https://github.com/austin-cavanagh" target="_blank">GitHub</a> - <a href="https://www.linkedin.com/in/austincavanagh/" target="_blank">LinkedIn</a> - austin.cavanagh.cs@gmail.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## License
+
+Distributed under the MIT License. See [LICENSE.txt](LICENSE.txt) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
